@@ -1,0 +1,44 @@
+{
+    "name": "bankkit",
+    "version": "1.0.0",
+    "description": "Tools kit for financial entities and bank",
+    "main": "app.js",
+    "scripts": {
+        "test": "ts-node ./test/numberToLetter/numberToLetter.test.ts",
+        "build": "tsc",
+        "start:dev": "ts-node ./lib/app.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jaam0/BankKit.git"
+    },
+    "keywords": [
+        "fintech",
+        "finance",
+        "financial",
+        "bank",
+        "banking",
+        "utils",
+        "helpers",
+        "toolkit",
+        "currency",
+        "money",
+        "payments",
+        "transactions",
+        "interest",
+        "validation",
+        "formatter"
+    ],
+    "author": "Jessie A. Álvarez M.",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Jaam0/BankKit/issues"
+    },
+    "homepage": "https://github.com/Jaam0/BankKit#readme",
+    "devDependencies": {
+        "@types/node": "^24.5.2",
+        "prettier": "^3.6.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.2"
+    }
+}
