@@ -1,10 +1,10 @@
 {
     "name": "bankkit",
     "version": "1.0.0",
-    "description": "Tools kit for financial entities and bank",
+    "description": "Es una biblioteca desarrollada en Node.js y TypeScript, diseñada para integrarse en sistemas financieros.",
     "main": "app.js",
     "scripts": {
-        "test": "ts-node ./test/numberToLetter/numberToLetter.test.ts",
+        "test": "node --test --require ts-node/register test/**/*.test.ts",
         "build": "tsc",
         "start:dev": "ts-node ./lib/app.ts"
     },
