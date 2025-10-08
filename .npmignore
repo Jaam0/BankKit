@@ -1,0 +1,8 @@
+lib/
+docs/
+examples/
+node_modules/
+test/
+*.log
+tsconfig.json
+.npmrc
