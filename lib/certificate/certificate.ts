@@ -114,9 +114,9 @@ class Certitificate {
         };
         const schema: ValidationSchema<IFinantialCertificate> = {
             amount: { type: 'number', required: true, min: 1 },
-            rate: { type: 'number', required: true, min: 1, max: 480, integer: true },
+            rate: { type: 'number', required: true, min: 1, max: 480 },
             term: { type: 'number', required: true, min: 1, integer: true },
-            govermentTaxPercent: { type: 'number', required: true, min: 1, integer: true },
+            govermentTaxPercent: { type: 'number', required: true, min: 1 },
             date: { type: 'date', required: false },
         };
         try {

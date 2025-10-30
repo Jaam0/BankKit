@@ -1,6 +1,6 @@
 {
     "name": "bankkit",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Es una biblioteca desarrollada en Node.js y TypeScript, diseñada para integrarse en sistemas financieros.",
     "main": "dist/app.js",
     "types": "dist/app.d.ts",
