@@ -91,7 +91,7 @@ class Amortization {
         };
         const schema: ValidationSchema<IAmartization> = {
             amount: { type: 'number', required: true, min: 1 },
-            rate: { type: 'number', required: true, min: 1, max: 480, integer: true },
+            rate: { type: 'number', required: true, min: 1, max: 480 },
             term: { type: 'number', required: true, min: 1, integer: true },
             commission: { type: 'number', required: false, min: 0 },
             date: { type: 'date', required: false },
